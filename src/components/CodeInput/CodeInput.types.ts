@@ -18,7 +18,7 @@ export interface Props {
    */
   onComplete?: (code: string) => void;
   /**
-   * ariaLabel: the aria-label passed through to the input
+   * ariaLabel: the aria-label passed to the input in case it has no visible label
    */
   ariaLabel?: string;
   /**
@@ -29,4 +29,9 @@ export interface Props {
    * disabled: whether code input is disabled
    */
   disabled?: boolean;
+  /**
+   * inputId: id to be passed to input for the visible label
+   * referencing to htmlFor attribute of <label> tag in cantina.
+   */
+  inputId?: string;
 }

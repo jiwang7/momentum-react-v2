@@ -5,6 +5,7 @@ import { mountAndWait } from '../../../test/utils';
 import Icon from '../Icon';
 import GlobalSearchInput, { GLOBAL_SEARCH_INPUT_CONSTANTS as CONSTANTS } from './';
 import { act } from 'react-dom/test-utils';
+import ButtonSimple from '../ButtonSimple';
 
 const testTranslations = {
   empty: 'empty',
@@ -24,7 +25,9 @@ describe('<GlobalSearchInput />', () => {
     it('should match snapshot', async () => {
       expect.assertions(1);
 
-      const container = await mountComponent(<GlobalSearchInput aria-label="global search" />);
+      const container = await mountComponent(
+        <GlobalSearchInput aria-label="global search" clearButtonAriaLabel="search" />
+      );
 
       expect(container).toMatchSnapshot();
     });
@@ -35,7 +38,11 @@ describe('<GlobalSearchInput />', () => {
       const className = 'example-class';
 
       const container = await mountComponent(
-        <GlobalSearchInput aria-label="global search" className={className} />
+        <GlobalSearchInput
+          aria-label="global search"
+          className={className}
+          clearButtonAriaLabel="search"
+        />
       );
 
       expect(container).toMatchSnapshot();
@@ -47,7 +54,7 @@ describe('<GlobalSearchInput />', () => {
       const id = 'example-id';
 
       const container = await mountComponent(
-        <GlobalSearchInput aria-label="global search" id={id} />
+        <GlobalSearchInput aria-label="global search" id={id} clearButtonAriaLabel="search" />
       );
 
       expect(container).toMatchSnapshot();
@@ -59,7 +66,7 @@ describe('<GlobalSearchInput />', () => {
       const style = { color: 'pink' };
 
       const container = await mountComponent(
-        <GlobalSearchInput aria-label="global search" style={style} />
+        <GlobalSearchInput aria-label="global search" style={style} clearButtonAriaLabel="search" />
       );
 
       expect(container).toMatchSnapshot();
@@ -69,7 +76,11 @@ describe('<GlobalSearchInput />', () => {
       expect.assertions(1);
 
       const container = await mountComponent(
-        <GlobalSearchInput aria-label="global search" searching={true} />
+        <GlobalSearchInput
+          aria-label="global search"
+          searching={true}
+          clearButtonAriaLabel="search"
+        />
       );
 
       expect(container).toMatchSnapshot();
@@ -94,6 +105,7 @@ describe('<GlobalSearchInput />', () => {
               translations: testTranslations,
             },
           ]}
+          clearButtonAriaLabel="search"
         />
       );
 
@@ -105,7 +117,11 @@ describe('<GlobalSearchInput />', () => {
     it('should have its wrapper class', async () => {
       expect.assertions(1);
 
-      const element = (await mountAndWait(<GlobalSearchInput aria-label="global search" />))
+      const element = (
+        await mountAndWait(
+          <GlobalSearchInput aria-label="global search" clearButtonAriaLabel="search" />
+        )
+      )
         .find(GlobalSearchInput)
         .getDOMNode();
 
@@ -118,7 +134,13 @@ describe('<GlobalSearchInput />', () => {
       const className = 'example-class';
 
       const element = (
-        await mountAndWait(<GlobalSearchInput aria-label="global search" className={className} />)
+        await mountAndWait(
+          <GlobalSearchInput
+            aria-label="global search"
+            className={className}
+            clearButtonAriaLabel="search"
+          />
+        )
       )
         .find(GlobalSearchInput)
         .getDOMNode();
@@ -131,7 +153,11 @@ describe('<GlobalSearchInput />', () => {
 
       const id = 'example-id-2';
 
-      const element = (await mountAndWait(<GlobalSearchInput aria-label="global search" id={id} />))
+      const element = (
+        await mountAndWait(
+          <GlobalSearchInput aria-label="global search" id={id} clearButtonAriaLabel="search" />
+        )
+      )
         .find(GlobalSearchInput)
         .getDOMNode();
 
@@ -145,7 +171,13 @@ describe('<GlobalSearchInput />', () => {
       const styleString = 'color: pink;';
 
       const element = (
-        await mountAndWait(<GlobalSearchInput aria-label="global search" style={style} />)
+        await mountAndWait(
+          <GlobalSearchInput
+            aria-label="global search"
+            style={style}
+            clearButtonAriaLabel="clear"
+          />
+        )
       )
         .find(GlobalSearchInput)
         .getDOMNode();
@@ -157,7 +189,13 @@ describe('<GlobalSearchInput />', () => {
       expect.assertions(1);
 
       const element = (
-        await mountAndWait(<GlobalSearchInput aria-label="global search" searching={true} />)
+        await mountAndWait(
+          <GlobalSearchInput
+            aria-label="global search"
+            searching={true}
+            clearButtonAriaLabel="clear"
+          />
+        )
       )
         .find('input')
         .getDOMNode();
@@ -169,12 +207,43 @@ describe('<GlobalSearchInput />', () => {
       expect.assertions(1);
 
       const element = (
-        await mountAndWait(<GlobalSearchInput aria-label="global search" searching={true} />)
+        await mountAndWait(
+          <GlobalSearchInput
+            aria-label="global search"
+            searching={true}
+            clearButtonAriaLabel="clear"
+          />
+        )
       )
         .find('input')
         .getDOMNode();
 
       expect(element.getAttribute('aria-label')).toBe('global search');
+    });
+
+    it('should pass the correct properties to the clear button', async () => {
+      expect.assertions(1);
+
+      const element = (
+        await mountAndWait(
+          <GlobalSearchInput
+            aria-label="global search"
+            searching={true}
+            clearButtonAriaLabel="clear"
+            value="hello"
+          />
+        )
+      ).find(ButtonSimple);
+
+      expect(element.props()).toStrictEqual({
+        className: 'md-global-search-input-clear',
+        excludeFromTabOrder: false,
+        'aria-label': 'clear',
+        children: expect.any(Object),
+        onPress: expect.any(Function),
+        onPressStart: expect.any(Function),
+        preventFocusOnPress: true,
+      });
     });
   });
 
@@ -198,6 +267,7 @@ describe('<GlobalSearchInput />', () => {
             aria-label="global search"
             value="ab"
             filters={filters}
+            clearButtonAriaLabel="clear"
           />
         );
       };
@@ -234,6 +304,7 @@ describe('<GlobalSearchInput />', () => {
           aria-label="global search"
           value="ab"
           filters={[{ term: 'from', value: '', translations: testTranslations }]}
+          clearButtonAriaLabel="clear"
         />
       );
       const inputElement = wrapper.find('input');
@@ -268,6 +339,7 @@ describe('<GlobalSearchInput />', () => {
           aria-label="global search"
           value=""
           filters={[]}
+          clearButtonAriaLabel="clear"
         />
       );
       const inputElement = wrapper.find('input');
@@ -300,6 +372,7 @@ describe('<GlobalSearchInput />', () => {
             aria-label="global search"
             value="ab"
             filters={[{ term: 'from', value: '', translations: testTranslations }]}
+            clearButtonAriaLabel="clear"
           />
         )
       ).find('input');
@@ -335,6 +408,7 @@ describe('<GlobalSearchInput />', () => {
             aria-label="global search"
             value="ab cd"
             filters={filters}
+            clearButtonAriaLabel="clear"
           />
         )
       ).find('input');
@@ -366,6 +440,7 @@ describe('<GlobalSearchInput />', () => {
             aria-label="global search"
             value="abc"
             filters={[{ term: 'from', value: '', translations: testTranslations }]}
+            clearButtonAriaLabel="clear"
           />
         )
       ).find('input');
@@ -385,7 +460,9 @@ describe('<GlobalSearchInput />', () => {
     it('clicking on another part of the component gives focus to the input', async () => {
       expect.assertions(1);
 
-      const wrapper = await mountAndWait(<GlobalSearchInput aria-label="global search" />);
+      const wrapper = await mountAndWait(
+        <GlobalSearchInput aria-label="global search" clearButtonAriaLabel="clear" />
+      );
 
       const inputElement = wrapper.find('input');
       const icon = wrapper.find(Icon);

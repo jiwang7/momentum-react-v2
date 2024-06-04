@@ -185,9 +185,12 @@ exports[`Select snapshot should match snapshot 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -263,6 +266,7 @@ exports[`Select snapshot should match snapshot 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -507,9 +511,12 @@ exports[`Select snapshot should match snapshot 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -728,9 +735,12 @@ exports[`Select snapshot should match snapshot before and after opening select d
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -806,6 +816,7 @@ exports[`Select snapshot should match snapshot before and after opening select d
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -1050,9 +1061,12 @@ exports[`Select snapshot should match snapshot before and after opening select d
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -1272,9 +1286,12 @@ exports[`Select snapshot should match snapshot before and after opening select d
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -1350,6 +1367,7 @@ exports[`Select snapshot should match snapshot before and after opening select d
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -1594,9 +1612,12 @@ exports[`Select snapshot should match snapshot before and after opening select d
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -1619,6 +1640,8 @@ exports[`Select snapshot should match snapshot before and after opening select d
                   style="z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
                 >
                   <div
+                    aria-labelledby="test-ID"
+                    aria-modal="true"
                     class="md-select-popover md-modal-container-wrapper"
                     data-arrow-orientation="vertical"
                     data-color="primary"
@@ -1692,12 +1715,14 @@ exports[`Select snapshot should match snapshot before and after opening select d
               }
             >
               <ModalContainer
+                aria-labelledby="test-ID"
                 arrowId="arrow1"
                 className="md-select-popover"
                 elevation={3}
                 isPadded={true}
                 onKeyDown={[Function]}
                 placement="bottom"
+                role={null}
                 round={50}
                 showArrow={false}
                 style={
@@ -1707,6 +1732,8 @@ exports[`Select snapshot should match snapshot before and after opening select d
                 }
               >
                 <div
+                  aria-labelledby="test-ID"
+                  aria-modal={true}
                   className="md-select-popover md-modal-container-wrapper"
                   data-arrow-orientation="vertical"
                   data-color="primary"
@@ -1715,6 +1742,7 @@ exports[`Select snapshot should match snapshot before and after opening select d
                   data-placement="bottom"
                   data-round={50}
                   onKeyDown={[Function]}
+                  role={null}
                   style={
                     Object {
                       "maxHeight": "none",
@@ -2327,9 +2355,12 @@ exports[`Select snapshot should match snapshot with border 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -2405,6 +2436,7 @@ exports[`Select snapshot should match snapshot with border 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -2649,9 +2681,12 @@ exports[`Select snapshot should match snapshot with border 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -2871,9 +2906,12 @@ exports[`Select snapshot should match snapshot with className 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -2949,6 +2987,7 @@ exports[`Select snapshot should match snapshot with className 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -3193,9 +3232,12 @@ exports[`Select snapshot should match snapshot with className 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -3415,9 +3457,12 @@ exports[`Select snapshot should match snapshot with direction 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -3493,6 +3538,7 @@ exports[`Select snapshot should match snapshot with direction 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="top"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -3737,9 +3783,12 @@ exports[`Select snapshot should match snapshot with direction 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -3969,9 +4018,12 @@ exports[`Select snapshot should match snapshot with disabled option 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -4047,6 +4099,7 @@ exports[`Select snapshot should match snapshot with disabled option 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -4291,9 +4344,12 @@ exports[`Select snapshot should match snapshot with disabled option 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -4316,6 +4372,8 @@ exports[`Select snapshot should match snapshot with disabled option 1`] = `
                   style="z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
                 >
                   <div
+                    aria-labelledby="test-ID"
+                    aria-modal="true"
                     class="md-select-popover md-modal-container-wrapper"
                     data-arrow-orientation="vertical"
                     data-color="primary"
@@ -4389,12 +4447,14 @@ exports[`Select snapshot should match snapshot with disabled option 1`] = `
               }
             >
               <ModalContainer
+                aria-labelledby="test-ID"
                 arrowId="arrow1"
                 className="md-select-popover"
                 elevation={3}
                 isPadded={true}
                 onKeyDown={[Function]}
                 placement="bottom"
+                role={null}
                 round={50}
                 showArrow={false}
                 style={
@@ -4404,6 +4464,8 @@ exports[`Select snapshot should match snapshot with disabled option 1`] = `
                 }
               >
                 <div
+                  aria-labelledby="test-ID"
+                  aria-modal={true}
                   className="md-select-popover md-modal-container-wrapper"
                   data-arrow-orientation="vertical"
                   data-color="primary"
@@ -4412,6 +4474,7 @@ exports[`Select snapshot should match snapshot with disabled option 1`] = `
                   data-placement="bottom"
                   data-round={50}
                   onKeyDown={[Function]}
+                  role={null}
                   style={
                     Object {
                       "maxHeight": "none",
@@ -5027,9 +5090,12 @@ exports[`Select snapshot should match snapshot with id 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -5105,6 +5171,7 @@ exports[`Select snapshot should match snapshot with id 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -5349,9 +5416,12 @@ exports[`Select snapshot should match snapshot with id 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -5419,6 +5489,7 @@ exports[`Select snapshot should match snapshot with isInForm = false 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -5663,9 +5734,12 @@ exports[`Select snapshot should match snapshot with isInForm = false 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -5886,9 +5960,12 @@ exports[`Select snapshot should match snapshot with listbox opened 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -5964,6 +6041,7 @@ exports[`Select snapshot should match snapshot with listbox opened 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -6208,9 +6286,12 @@ exports[`Select snapshot should match snapshot with listbox opened 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -6233,6 +6314,8 @@ exports[`Select snapshot should match snapshot with listbox opened 1`] = `
                   style="z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
                 >
                   <div
+                    aria-labelledby="test-ID"
+                    aria-modal="true"
                     class="md-select-popover md-modal-container-wrapper"
                     data-arrow-orientation="vertical"
                     data-color="primary"
@@ -6306,12 +6389,14 @@ exports[`Select snapshot should match snapshot with listbox opened 1`] = `
               }
             >
               <ModalContainer
+                aria-labelledby="test-ID"
                 arrowId="arrow1"
                 className="md-select-popover"
                 elevation={3}
                 isPadded={true}
                 onKeyDown={[Function]}
                 placement="bottom"
+                role={null}
                 round={50}
                 showArrow={false}
                 style={
@@ -6321,6 +6406,8 @@ exports[`Select snapshot should match snapshot with listbox opened 1`] = `
                 }
               >
                 <div
+                  aria-labelledby="test-ID"
+                  aria-modal={true}
                   className="md-select-popover md-modal-container-wrapper"
                   data-arrow-orientation="vertical"
                   data-color="primary"
@@ -6329,6 +6416,7 @@ exports[`Select snapshot should match snapshot with listbox opened 1`] = `
                   data-placement="bottom"
                   data-round={50}
                   onKeyDown={[Function]}
+                  role={null}
                   style={
                     Object {
                       "maxHeight": "none",
@@ -6941,9 +7029,12 @@ exports[`Select snapshot should match snapshot with listboxMaxHeight 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -7019,6 +7110,7 @@ exports[`Select snapshot should match snapshot with listboxMaxHeight 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -7263,9 +7355,12 @@ exports[`Select snapshot should match snapshot with listboxMaxHeight 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -7288,6 +7383,8 @@ exports[`Select snapshot should match snapshot with listboxMaxHeight 1`] = `
                   style="z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
                 >
                   <div
+                    aria-labelledby="test-ID"
+                    aria-modal="true"
                     class="md-select-popover md-modal-container-wrapper"
                     data-arrow-orientation="vertical"
                     data-color="primary"
@@ -7361,12 +7458,14 @@ exports[`Select snapshot should match snapshot with listboxMaxHeight 1`] = `
               }
             >
               <ModalContainer
+                aria-labelledby="test-ID"
                 arrowId="arrow1"
                 className="md-select-popover"
                 elevation={3}
                 isPadded={true}
                 onKeyDown={[Function]}
                 placement="bottom"
+                role={null}
                 round={50}
                 showArrow={false}
                 style={
@@ -7376,6 +7475,8 @@ exports[`Select snapshot should match snapshot with listboxMaxHeight 1`] = `
                 }
               >
                 <div
+                  aria-labelledby="test-ID"
+                  aria-modal={true}
                   className="md-select-popover md-modal-container-wrapper"
                   data-arrow-orientation="vertical"
                   data-color="primary"
@@ -7384,6 +7485,7 @@ exports[`Select snapshot should match snapshot with listboxMaxHeight 1`] = `
                   data-placement="bottom"
                   data-round={50}
                   onKeyDown={[Function]}
+                  role={null}
                   style={
                     Object {
                       "maxHeight": "50px",
@@ -7996,9 +8098,12 @@ exports[`Select snapshot should match snapshot with listboxWidth 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -8074,6 +8179,7 @@ exports[`Select snapshot should match snapshot with listboxWidth 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="fixed"
@@ -8318,9 +8424,12 @@ exports[`Select snapshot should match snapshot with listboxWidth 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -8343,6 +8452,8 @@ exports[`Select snapshot should match snapshot with listboxWidth 1`] = `
                   style="z-index: 9999; position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
                 >
                   <div
+                    aria-labelledby="test-ID"
+                    aria-modal="true"
                     class="md-select-popover md-modal-container-wrapper"
                     data-arrow-orientation="vertical"
                     data-color="primary"
@@ -8416,12 +8527,14 @@ exports[`Select snapshot should match snapshot with listboxWidth 1`] = `
               }
             >
               <ModalContainer
+                aria-labelledby="test-ID"
                 arrowId="arrow1"
                 className="md-select-popover"
                 elevation={3}
                 isPadded={true}
                 onKeyDown={[Function]}
                 placement="bottom"
+                role={null}
                 round={50}
                 showArrow={false}
                 style={
@@ -8431,6 +8544,8 @@ exports[`Select snapshot should match snapshot with listboxWidth 1`] = `
                 }
               >
                 <div
+                  aria-labelledby="test-ID"
+                  aria-modal={true}
                   className="md-select-popover md-modal-container-wrapper"
                   data-arrow-orientation="vertical"
                   data-color="primary"
@@ -8439,6 +8554,7 @@ exports[`Select snapshot should match snapshot with listboxWidth 1`] = `
                   data-placement="bottom"
                   data-round={50}
                   onKeyDown={[Function]}
+                  role={null}
                   style={
                     Object {
                       "maxHeight": "none",
@@ -9053,9 +9169,12 @@ exports[`Select snapshot should match snapshot with placeholder 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -9131,6 +9250,7 @@ exports[`Select snapshot should match snapshot with placeholder 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -9379,9 +9499,12 @@ exports[`Select snapshot should match snapshot with placeholder 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -9627,9 +9750,12 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -9705,6 +9831,7 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -9955,9 +10082,12 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -10205,9 +10335,12 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -10283,6 +10416,7 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -10533,9 +10667,12 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -10558,6 +10695,8 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
                   style="z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
                 >
                   <div
+                    aria-labelledby="test-ID"
+                    aria-modal="true"
                     class="md-select-popover md-modal-container-wrapper"
                     data-arrow-orientation="vertical"
                     data-color="primary"
@@ -10603,9 +10742,12 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
                           data-position="end"
                         >
                           <div
+                            aria-hidden="true"
                             class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-list-box-item-tick-icon md-icon-no-shrink"
+                            role="img"
                           >
                             <svg
+                              aria-hidden="true"
                               class=""
                               data-autoscale="false"
                               data-scale="16"
@@ -10650,12 +10792,14 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
               }
             >
               <ModalContainer
+                aria-labelledby="test-ID"
                 arrowId="arrow1"
                 className="md-select-popover"
                 elevation={3}
                 isPadded={true}
                 onKeyDown={[Function]}
                 placement="bottom"
+                role={null}
                 round={50}
                 showArrow={false}
                 style={
@@ -10665,6 +10809,8 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
                 }
               >
                 <div
+                  aria-labelledby="test-ID"
+                  aria-modal={true}
                   className="md-select-popover md-modal-container-wrapper"
                   data-arrow-orientation="vertical"
                   data-color="primary"
@@ -10673,6 +10819,7 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
                   data-placement="bottom"
                   data-round={50}
                   onKeyDown={[Function]}
+                  role={null}
                   style={
                     Object {
                       "maxHeight": "none",
@@ -11003,9 +11150,12 @@ exports[`Select snapshot should match snapshot with selected option and listbox 
                                               weight="bold"
                                             >
                                               <div
+                                                aria-hidden="true"
                                                 className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-list-box-item-tick-icon md-icon-no-shrink"
+                                                role="img"
                                               >
                                                 <svg
+                                                  aria-hidden="true"
                                                   className=""
                                                   data-autoscale={false}
                                                   data-scale={16}
@@ -11348,9 +11498,12 @@ exports[`Select snapshot should match snapshot with style 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -11426,6 +11579,7 @@ exports[`Select snapshot should match snapshot with style 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -11670,9 +11824,12 @@ exports[`Select snapshot should match snapshot with style 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}
@@ -11891,9 +12048,12 @@ exports[`Select snapshot should match snapshot with title 1`] = `
               class="md-select-icon-wrapper"
             >
               <div
+                aria-hidden="true"
                 class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                role="img"
               >
                 <svg
+                  aria-hidden="true"
                   class=""
                   data-autoscale="false"
                   data-scale="16"
@@ -11969,6 +12129,7 @@ exports[`Select snapshot should match snapshot with title 1`] = `
       onHide={[Function]}
       onKeyDown={[Function]}
       placement="bottom"
+      role={null}
       setInstance={[Function]}
       showArrow={false}
       strategy="absolute"
@@ -12215,9 +12376,12 @@ exports[`Select snapshot should match snapshot with title 1`] = `
                   weight="bold"
                 >
                   <div
+                    aria-hidden="true"
                     className="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+                    role="img"
                   >
                     <svg
+                      aria-hidden="true"
                       className=""
                       data-autoscale={false}
                       data-scale={16}

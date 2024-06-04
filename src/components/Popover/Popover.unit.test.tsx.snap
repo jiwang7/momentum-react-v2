@@ -3,6 +3,7 @@
 exports[`<Popover /> snapshot should display only one popover at all time 1`] = `
 <div>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -11,6 +12,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 1`] = 
     </span>
   </button>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -33,6 +35,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 2`] = 
 <div>
   <button
     aria-describedby="tippy-11"
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -41,6 +44,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 2`] = 
     </span>
   </button>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -62,6 +66,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 2`] = 
     style="pointer-events: none; z-index: 9999; position: fixed; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -69,6 +74,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 2`] = 
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content 1
@@ -115,6 +121,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 2`] = 
 exports[`<Popover /> snapshot should display only one popover at all time 3`] = `
 <div>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -124,6 +131,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 3`] = 
   </button>
   <button
     aria-describedby="tippy-12"
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -145,6 +153,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 3`] = 
     style="pointer-events: none; z-index: 9999; position: fixed; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -152,6 +161,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 3`] = 
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content 2
@@ -198,6 +208,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 3`] = 
 exports[`<Popover /> snapshot should display only one popover at all time 4`] = `
 <div>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -206,6 +217,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 4`] = 
     </span>
   </button>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -227,6 +239,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 4`] = 
 exports[`<Popover /> snapshot should display only one popover at all time 5`] = `
 <div>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -235,6 +248,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 5`] = 
     </span>
   </button>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -257,6 +271,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 6`] = 
 <div>
   <button
     aria-describedby="tippy-13"
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -265,6 +280,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 6`] = 
     </span>
   </button>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -286,6 +302,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 6`] = 
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -293,6 +310,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 6`] = 
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content 1
@@ -339,6 +357,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 6`] = 
 exports[`<Popover /> snapshot should display only one popover at all time 7`] = `
 <div>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -348,6 +367,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 7`] = 
   </button>
   <button
     aria-describedby="tippy-14"
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -369,6 +389,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 7`] = 
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -376,6 +397,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 7`] = 
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content 2
@@ -422,6 +444,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 7`] = 
 exports[`<Popover /> snapshot should display only one popover at all time 8`] = `
 <div>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -430,6 +453,7 @@ exports[`<Popover /> snapshot should display only one popover at all time 8`] = 
     </span>
   </button>
   <button
+    aria-haspopup="dialog"
     class="md-button-simple-wrapper"
     type="button"
   >
@@ -450,7 +474,9 @@ exports[`<Popover /> snapshot should display only one popover at all time 8`] = 
 
 exports[`<Popover /> snapshot should match snapshot 1`] = `
 <div>
-  <button>
+  <button
+    aria-haspopup="dialog"
+  >
     Click Me!
   </button>
 </div>
@@ -460,6 +486,7 @@ exports[`<Popover /> snapshot should match snapshot 2`] = `
 <div>
   <button
     aria-describedby="tippy-1"
+    aria-haspopup="dialog"
   >
     Click Me!
   </button>
@@ -469,6 +496,7 @@ exports[`<Popover /> snapshot should match snapshot 2`] = `
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -476,6 +504,7 @@ exports[`<Popover /> snapshot should match snapshot 2`] = `
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content
@@ -521,7 +550,9 @@ exports[`<Popover /> snapshot should match snapshot 2`] = `
 
 exports[`<Popover /> snapshot should match snapshot with className 1`] = `
 <div>
-  <button>
+  <button
+    aria-haspopup="dialog"
+  >
     Click Me!
   </button>
 </div>
@@ -531,6 +562,7 @@ exports[`<Popover /> snapshot should match snapshot with className 2`] = `
 <div>
   <button
     aria-describedby="tippy-2"
+    aria-haspopup="dialog"
   >
     Click Me!
   </button>
@@ -540,6 +572,7 @@ exports[`<Popover /> snapshot should match snapshot with className 2`] = `
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="example-class md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -547,6 +580,7 @@ exports[`<Popover /> snapshot should match snapshot with className 2`] = `
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content
@@ -592,7 +626,9 @@ exports[`<Popover /> snapshot should match snapshot with className 2`] = `
 
 exports[`<Popover /> snapshot should match snapshot with closeButtonPlacement 1`] = `
 <div>
-  <button>
+  <button
+    aria-haspopup="dialog"
+  >
     Click Me!
   </button>
 </div>
@@ -602,6 +638,7 @@ exports[`<Popover /> snapshot should match snapshot with closeButtonPlacement 2`
 <div>
   <button
     aria-describedby="tippy-6"
+    aria-haspopup="dialog"
   >
     Click Me!
   </button>
@@ -611,6 +648,7 @@ exports[`<Popover /> snapshot should match snapshot with closeButtonPlacement 2`
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -618,6 +656,7 @@ exports[`<Popover /> snapshot should match snapshot with closeButtonPlacement 2`
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <button
         class="md-button-circle-wrapper md-popover-close-button md-button-simple-wrapper"
@@ -633,9 +672,12 @@ exports[`<Popover /> snapshot should match snapshot with closeButtonPlacement 2`
         type="button"
       >
         <div
+          aria-hidden="true"
           class="md-icon-wrapper md-icon-auto-scales md-icon-scales md-icon-no-shrink"
+          role="img"
         >
           <svg
+            aria-hidden="true"
             class=""
             data-autoscale="false"
             data-scale="16"
@@ -691,7 +733,9 @@ exports[`<Popover /> snapshot should match snapshot with closeButtonPlacement 2`
 
 exports[`<Popover /> snapshot should match snapshot with color 1`] = `
 <div>
-  <button>
+  <button
+    aria-haspopup="dialog"
+  >
     Click Me!
   </button>
 </div>
@@ -701,6 +745,7 @@ exports[`<Popover /> snapshot should match snapshot with color 2`] = `
 <div>
   <button
     aria-describedby="tippy-5"
+    aria-haspopup="dialog"
   >
     Click Me!
   </button>
@@ -710,6 +755,7 @@ exports[`<Popover /> snapshot should match snapshot with color 2`] = `
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="tertiary"
@@ -717,6 +763,7 @@ exports[`<Popover /> snapshot should match snapshot with color 2`] = `
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content
@@ -762,7 +809,9 @@ exports[`<Popover /> snapshot should match snapshot with color 2`] = `
 
 exports[`<Popover /> snapshot should match snapshot with id 1`] = `
 <div>
-  <button>
+  <button
+    aria-haspopup="dialog"
+  >
     Click Me!
   </button>
 </div>
@@ -772,6 +821,7 @@ exports[`<Popover /> snapshot should match snapshot with id 2`] = `
 <div>
   <button
     aria-describedby="tippy-3"
+    aria-haspopup="dialog"
   >
     Click Me!
   </button>
@@ -781,6 +831,7 @@ exports[`<Popover /> snapshot should match snapshot with id 2`] = `
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -789,6 +840,7 @@ exports[`<Popover /> snapshot should match snapshot with id 2`] = `
       data-placement="top"
       data-round="50"
       id="example-id"
+      role="dialog"
     >
       <p>
         Content
@@ -905,7 +957,9 @@ exports[`<Popover /> snapshot should match snapshot with isPreventOverflow = fal
 
 exports[`<Popover /> snapshot should match snapshot with offsetDistance 1`] = `
 <div>
-  <button>
+  <button
+    aria-haspopup="dialog"
+  >
     Click Me!
   </button>
 </div>
@@ -915,6 +969,7 @@ exports[`<Popover /> snapshot should match snapshot with offsetDistance 2`] = `
 <div>
   <button
     aria-describedby="tippy-9"
+    aria-haspopup="dialog"
   >
     Click Me!
   </button>
@@ -924,6 +979,7 @@ exports[`<Popover /> snapshot should match snapshot with offsetDistance 2`] = `
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -931,6 +987,7 @@ exports[`<Popover /> snapshot should match snapshot with offsetDistance 2`] = `
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content
@@ -976,7 +1033,9 @@ exports[`<Popover /> snapshot should match snapshot with offsetDistance 2`] = `
 
 exports[`<Popover /> snapshot should match snapshot with offsetSkidding 1`] = `
 <div>
-  <button>
+  <button
+    aria-haspopup="dialog"
+  >
     Click Me!
   </button>
 </div>
@@ -986,6 +1045,7 @@ exports[`<Popover /> snapshot should match snapshot with offsetSkidding 2`] = `
 <div>
   <button
     aria-describedby="tippy-8"
+    aria-haspopup="dialog"
   >
     Click Me!
   </button>
@@ -995,6 +1055,7 @@ exports[`<Popover /> snapshot should match snapshot with offsetSkidding 2`] = `
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -1002,6 +1063,7 @@ exports[`<Popover /> snapshot should match snapshot with offsetSkidding 2`] = `
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content
@@ -1047,7 +1109,9 @@ exports[`<Popover /> snapshot should match snapshot with offsetSkidding 2`] = `
 
 exports[`<Popover /> snapshot should match snapshot with offsetSkidding and offsetDistance 1`] = `
 <div>
-  <button>
+  <button
+    aria-haspopup="dialog"
+  >
     Click Me!
   </button>
 </div>
@@ -1057,6 +1121,7 @@ exports[`<Popover /> snapshot should match snapshot with offsetSkidding and offs
 <div>
   <button
     aria-describedby="tippy-10"
+    aria-haspopup="dialog"
   >
     Click Me!
   </button>
@@ -1066,6 +1131,7 @@ exports[`<Popover /> snapshot should match snapshot with offsetSkidding and offs
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -1073,6 +1139,7 @@ exports[`<Popover /> snapshot should match snapshot with offsetSkidding and offs
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content
@@ -1118,7 +1185,9 @@ exports[`<Popover /> snapshot should match snapshot with offsetSkidding and offs
 
 exports[`<Popover /> snapshot should match snapshot with strategy = fixed 1`] = `
 <div>
-  <button>
+  <button
+    aria-haspopup="dialog"
+  >
     Click Me!
   </button>
 </div>
@@ -1128,6 +1197,7 @@ exports[`<Popover /> snapshot should match snapshot with strategy = fixed 2`] = 
 <div>
   <button
     aria-describedby="tippy-7"
+    aria-haspopup="dialog"
   >
     Click Me!
   </button>
@@ -1137,6 +1207,7 @@ exports[`<Popover /> snapshot should match snapshot with strategy = fixed 2`] = 
     style="pointer-events: none; z-index: 9999; position: fixed; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -1144,6 +1215,7 @@ exports[`<Popover /> snapshot should match snapshot with strategy = fixed 2`] = 
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
     >
       <p>
         Content
@@ -1189,7 +1261,9 @@ exports[`<Popover /> snapshot should match snapshot with strategy = fixed 2`] = 
 
 exports[`<Popover /> snapshot should match snapshot with style 1`] = `
 <div>
-  <button>
+  <button
+    aria-haspopup="dialog"
+  >
     Click Me!
   </button>
 </div>
@@ -1199,6 +1273,7 @@ exports[`<Popover /> snapshot should match snapshot with style 2`] = `
 <div>
   <button
     aria-describedby="tippy-4"
+    aria-haspopup="dialog"
   >
     Click Me!
   </button>
@@ -1208,6 +1283,7 @@ exports[`<Popover /> snapshot should match snapshot with style 2`] = `
     style="pointer-events: none; z-index: 9999; position: absolute; left: 0px; top: 0px; margin: 0px; bottom: 0px; transform: translate(0px, 0px);"
   >
     <div
+      aria-modal="true"
       class="md-modal-container-wrapper"
       data-arrow-orientation="vertical"
       data-color="primary"
@@ -1215,6 +1291,7 @@ exports[`<Popover /> snapshot should match snapshot with style 2`] = `
       data-padded="true"
       data-placement="top"
       data-round="50"
+      role="dialog"
       style="color: pink;"
     >
       <p>

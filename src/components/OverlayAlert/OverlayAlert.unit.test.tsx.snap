@@ -71,11 +71,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot 1`] = `
                 data-fullscreen="false"
               >
                 <div
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div />
@@ -104,11 +106,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot 1`] = `
                   data-fullscreen="false"
                 >
                   <div
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div />
@@ -135,11 +139,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot 1`] = `
             round={75}
           >
             <div
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div />
@@ -247,11 +253,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with actions 1`] = `
                 data-fullscreen="false"
               >
                 <div
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div />
@@ -297,11 +305,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with actions 1`] = `
                   data-fullscreen="false"
                 >
                   <div
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div />
@@ -345,11 +355,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with actions 1`] = `
             round={75}
           >
             <div
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div />
@@ -408,6 +420,194 @@ exports[`<OverlayAlert /> snapshot should match snapshot with actions 1`] = `
                   </ButtonSimple>
                 </ButtonPill>
               </div>
+            </div>
+          </ModalContainer>
+        </div>
+      </div>
+      <div
+        data-focus-guard={true}
+        style={
+          Object {
+            "height": "0px",
+            "left": "1px",
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "top": "1px",
+            "width": "1px",
+          }
+        }
+        tabIndex={0}
+      />
+    </FocusLock>
+  </Overlay>
+</OverlayAlert>
+`;
+
+exports[`<OverlayAlert /> snapshot should match snapshot with ariaLabel 1`] = `
+<OverlayAlert
+  ariaLabel="test-aria-label"
+>
+  <Overlay
+    className="md-overlay-alert-wrapper"
+    color="secondary"
+    focusLockProps={
+      Object {
+        "returnFocus": true,
+      }
+    }
+    onKeyDown={[Function]}
+  >
+    <FocusLock
+      as="div"
+      autoFocus={true}
+      disabled={false}
+      lockProps={Object {}}
+      noFocusGuards={false}
+      persistentFocus={false}
+      returnFocus={true}
+    >
+      <div
+        data-focus-guard={true}
+        key="guard-first"
+        style={
+          Object {
+            "height": "0px",
+            "left": "1px",
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "top": "1px",
+            "width": "1px",
+          }
+        }
+        tabIndex={0}
+      />
+      <div
+        data-focus-guard={true}
+        key="guard-nearest"
+        style={
+          Object {
+            "height": "0px",
+            "left": "1px",
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "top": "1px",
+            "width": "1px",
+          }
+        }
+        tabIndex={1}
+      />
+      <div
+        data-focus-lock-disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        <SideEffect(FocusWatcher)
+          autoFocus={true}
+          disabled={false}
+          observed={
+            <div
+              data-focus-lock-disabled="false"
+            >
+              <div
+                class="md-overlay-alert-wrapper md-overlay-wrapper"
+                data-color="secondary"
+                data-fullscreen="false"
+              >
+                <div
+                  aria-label="test-aria-label"
+                  aria-modal="true"
+                  class="md-modal-container-wrapper"
+                  data-color="primary"
+                  data-elevation="0"
+                  data-padded="false"
+                  data-round="75"
+                  role="dialog"
+                >
+                  <div>
+                    <div />
+                  </div>
+                  <div>
+                    example-children
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          }
+          onActivation={[Function]}
+          onDeactivation={[Function]}
+          persistentFocus={false}
+          shards={Array []}
+        >
+          <FocusWatcher
+            autoFocus={true}
+            disabled={false}
+            observed={
+              <div
+                data-focus-lock-disabled="false"
+              >
+                <div
+                  class="md-overlay-alert-wrapper md-overlay-wrapper"
+                  data-color="secondary"
+                  data-fullscreen="false"
+                >
+                  <div
+                    aria-label="test-aria-label"
+                    aria-modal="true"
+                    class="md-modal-container-wrapper"
+                    data-color="primary"
+                    data-elevation="0"
+                    data-padded="false"
+                    data-round="75"
+                    role="dialog"
+                  >
+                    <div>
+                      <div />
+                    </div>
+                    <div>
+                      example-children
+                    </div>
+                    <div />
+                  </div>
+                </div>
+              </div>
+            }
+            onActivation={[Function]}
+            onDeactivation={[Function]}
+            persistentFocus={false}
+            shards={Array []}
+          />
+        </SideEffect(FocusWatcher)>
+        <div
+          className="md-overlay-alert-wrapper md-overlay-wrapper"
+          data-color="secondary"
+          data-fullscreen={false}
+          onKeyDown={[Function]}
+        >
+          <ModalContainer
+            aria-label="test-aria-label"
+            round={75}
+          >
+            <div
+              aria-label="test-aria-label"
+              aria-modal={true}
+              className="md-modal-container-wrapper"
+              data-color="primary"
+              data-elevation={0}
+              data-padded={false}
+              data-round={75}
+              role="dialog"
+            >
+              <div>
+                <div />
+              </div>
+              <div>
+                example-children
+              </div>
+              <div />
             </div>
           </ModalContainer>
         </div>
@@ -505,11 +705,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with className 1`] = `
                 data-fullscreen="false"
               >
                 <div
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div />
@@ -538,11 +740,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with className 1`] = `
                   data-fullscreen="false"
                 >
                   <div
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div />
@@ -569,11 +773,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with className 1`] = `
             round={75}
           >
             <div
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div />
@@ -681,11 +887,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with controls 1`] = `
                 data-fullscreen="false"
               >
                 <div
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div>
@@ -719,11 +927,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with controls 1`] = `
                   data-fullscreen="false"
                 >
                   <div
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div>
@@ -755,11 +965,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with controls 1`] = `
             round={75}
           >
             <div
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div>
@@ -903,11 +1115,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with details 1`] = `
                 data-fullscreen="false"
               >
                 <div
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div />
@@ -943,11 +1157,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with details 1`] = `
                   data-fullscreen="false"
                 >
                   <div
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div />
@@ -981,11 +1197,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with details 1`] = `
             round={75}
           >
             <div
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div />
@@ -1101,11 +1319,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with details and childr
                 data-fullscreen="false"
               >
                 <div
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div />
@@ -1136,11 +1356,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with details and childr
                   data-fullscreen="false"
                 >
                   <div
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div />
@@ -1169,11 +1391,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with details and childr
             round={75}
           >
             <div
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div />
@@ -1281,11 +1505,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with id 1`] = `
                 id="example-id"
               >
                 <div
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div />
@@ -1315,11 +1541,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with id 1`] = `
                   id="example-id"
                 >
                   <div
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div />
@@ -1347,11 +1575,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with id 1`] = `
             round={75}
           >
             <div
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div />
@@ -1470,11 +1700,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with multiple actions 1
                 data-fullscreen="false"
               >
                 <div
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div />
@@ -1555,11 +1787,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with multiple actions 1
                   data-fullscreen="false"
                 >
                   <div
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div />
@@ -1638,11 +1872,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with multiple actions 1
             round={75}
           >
             <div
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div />
@@ -1924,11 +2160,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with multiple controls 
                 data-fullscreen="false"
               >
                 <div
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div>
@@ -1973,11 +2211,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with multiple controls 
                   data-fullscreen="false"
                 >
                   <div
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div>
@@ -2020,11 +2260,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with multiple controls 
             round={75}
           >
             <div
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div>
@@ -2263,11 +2505,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with style 1`] = `
                 style="color: pink;"
               >
                 <div
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div />
@@ -2297,11 +2541,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with style 1`] = `
                   style="color: pink;"
                 >
                   <div
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div />
@@ -2333,11 +2579,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with style 1`] = `
             round={75}
           >
             <div
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div />
@@ -2441,11 +2689,14 @@ exports[`<OverlayAlert /> snapshot should match snapshot with title 1`] = `
                 data-fullscreen="false"
               >
                 <div
+                  aria-labelledby="test-ID"
+                  aria-modal="true"
                   class="md-modal-container-wrapper"
                   data-color="primary"
                   data-elevation="0"
                   data-padded="false"
                   data-round="75"
+                  role="dialog"
                 >
                   <div>
                     <div />
@@ -2453,12 +2704,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with title 1`] = `
                   <div
                     class="md-overlay-alert-title"
                   >
-                    <h3
+                    <h2
                       class="md-text-wrapper md-overlay-alert-title"
-                      data-type="header-primary"
+                      data-type="title"
+                      id="test-ID"
                     >
                       example-title
-                    </h3>
+                    </h2>
                   </div>
                   <div />
                   <div />
@@ -2484,11 +2736,14 @@ exports[`<OverlayAlert /> snapshot should match snapshot with title 1`] = `
                   data-fullscreen="false"
                 >
                   <div
+                    aria-labelledby="test-ID"
+                    aria-modal="true"
                     class="md-modal-container-wrapper"
                     data-color="primary"
                     data-elevation="0"
                     data-padded="false"
                     data-round="75"
+                    role="dialog"
                   >
                     <div>
                       <div />
@@ -2496,12 +2751,13 @@ exports[`<OverlayAlert /> snapshot should match snapshot with title 1`] = `
                     <div
                       class="md-overlay-alert-title"
                     >
-                      <h3
+                      <h2
                         class="md-text-wrapper md-overlay-alert-title"
-                        data-type="header-primary"
+                        data-type="title"
+                        id="test-ID"
                       >
                         example-title
-                      </h3>
+                      </h2>
                     </div>
                     <div />
                     <div />
@@ -2522,14 +2778,18 @@ exports[`<OverlayAlert /> snapshot should match snapshot with title 1`] = `
           onKeyDown={[Function]}
         >
           <ModalContainer
+            aria-labelledby="test-ID"
             round={75}
           >
             <div
+              aria-labelledby="test-ID"
+              aria-modal={true}
               className="md-modal-container-wrapper"
               data-color="primary"
               data-elevation={0}
               data-padded={false}
               data-round={75}
+              role="dialog"
             >
               <div>
                 <div />
@@ -2539,14 +2799,16 @@ exports[`<OverlayAlert /> snapshot should match snapshot with title 1`] = `
               >
                 <Text
                   className="md-overlay-alert-title"
-                  type="header-primary"
+                  id="test-ID"
+                  type="title"
                 >
-                  <h3
+                  <h2
                     className="md-text-wrapper md-overlay-alert-title"
-                    data-type="header-primary"
+                    data-type="title"
+                    id="test-ID"
                   >
                     example-title
-                  </h3>
+                  </h2>
                 </Text>
               </div>
               <div />

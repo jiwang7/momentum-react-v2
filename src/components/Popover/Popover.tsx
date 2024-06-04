@@ -64,8 +64,15 @@ const Popover = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
     firstFocusElement,
     ...rest
   } = props;
-
   const popoverInstance = React.useRef<PopoverInstance>(undefined);
+
+  const triggerComponentId = triggerComponent.props?.id || uuidV4();
+
+  const modalConditionalProps = {
+    ...(interactive && {'aria-labelledby': triggerComponentId}),
+  };
+  
+
 
   // memoize arrow id to avoid memory leak (arrow will be different, but JS still tries to find old ones):
   const arrowId = React.useMemo(() => `${ARROW_ID}${uuidV4()}`, []);
@@ -94,6 +101,19 @@ const Popover = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
     firstFocusElement?.focus();
   }, [firstFocusElement]);
 
+
+  const triggerComponentCommonProps = {
+    'aria-haspopup': triggerComponent.props?.['aria-haspopup'] || 'dialog',
+    'id': interactive ? triggerComponentId : triggerComponent.props?.id,
+  };
+  
+  const mrv2Props = isMRv2Button(triggerComponent) ? {useNativeKeyDown: true} : {};
+  
+  const clonedTriggerComponent = React.cloneElement(triggerComponent, {
+    ...triggerComponentCommonProps,
+    ...mrv2Props,
+  });
+
   return (
     <LazyTippy
       ref={ref}
@@ -111,6 +131,7 @@ const Popover = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
           style={style}
           color={color}
           className={className}
+          {...modalConditionalProps}
           {...rest}
         >
           {closeButtonPlacement !== 'none' && (
@@ -181,11 +202,7 @@ const Popover = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
       }}
       setInstance={popoverSetInstance}
     >
-      {isMRv2Button(triggerComponent)
-        ? React.cloneElement(triggerComponent, {
-            useNativeKeyDown: true,
-          })
-        : triggerComponent}
+      {clonedTriggerComponent}
     </LazyTippy>
   );
 });

@@ -4,8 +4,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Modal from 'react-aria-modal';
 import { Spinner, Tooltip, Icon } from '@momentum-ui/react-collaboration';
+import { v4 as uuidv4 } from 'uuid';
 
+/**
+* @deprecated - Components in the legacy folder (/src/legacy) are deprecated. Please use a component from the components folder (/src/components) instead. Legacy components may not follow accessibility standards.
+**/
 class Lightbox extends React.Component {
+  constructor(props) {
+    super(props);
+    this.nameId = uuidv4();
+  }
+
   state = {
     viewportDimensions: {
       width: 600,
@@ -485,6 +494,7 @@ class Lightbox extends React.Component {
         titleId="md-lightbox"
         dialogClass="md-lightbox"
         underlayClass="md-lightbox__container"
+        aria-labelledby={this.nameId}
       >
         <div className="md-lightbox__header" ref={(ref) => (this.lightBox = ref)}>
           <div className="md-lightbox__header-item--left">
@@ -494,7 +504,7 @@ class Lightbox extends React.Component {
             </div>
           </div>
           <div className="md-lightbox__header-item--center">
-            <div className="md-lightbox__header-name">{name}</div>
+            <h2 className="md-lightbox__header-name" id={this.nameId}>{name}</h2>
           </div>
           <div className="md-lightbox__header-item--right">
             <Tooltip popoverProps={popoverProps} tooltip={tooltips.exit}>
